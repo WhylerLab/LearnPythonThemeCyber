@@ -35,7 +35,7 @@ The fictional ranking system represents my progress:
 ## Repository Structure
 
 ```text
-python-cyberpunk-gigs/
+LearnPythonThemeCyber/
 │
 ├── day01/
 │   ├── gig01/
