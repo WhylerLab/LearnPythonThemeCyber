@@ -1,0 +1,27 @@
+PROMOTION RUN: SECTOR-4 UPLINK AUDIT
+Trainee → Bit Runner
+
+Briefing
+Die Torkontrolle am Sector-4-Ring hat einen ganzen Tag an Zugriffsprotokollen gesammelt – wer wann versucht hat reinzukommen,
+mit welcher Freigabestufe, ob der Zugang gewährt wurde. Die Betreiberin will keine rohen Logzeilen mehr sehen,
+sondern einen fertigen Tagesbericht: wie viele reingekommen sind, wie viele abgewiesen wurden,
+wie hoch die durchschnittliche Freigabestufe der Reingelassenen war, und eine Liste aller abgewiesenen Namen.
+
+Reale Anforderung
+Baue ein eigenständiges Skript, das eine Reihe von Zugriffsversuchen verarbeitet (Name, Freigabestufe, ob ein gültiger Pass vorlag)
+und daraus einen zusammenfassenden Bericht erzeugt. Der Bericht muss enthalten:
+
+Anzahl gewährter und abgewiesener Zugriffe
+Durchschnittliche Freigabestufe der gewährten Zugriffe (gerundet)
+Eine Liste der Namen aller abgewiesenen Personen
+
+Wie du die Zugriffsdaten strukturierst (Listen, Tupel, mehrere Listen, was auch immer), wie du filterst und wie du den Bericht genau formatierst,
+ist dir überlassen. Erwartet wird ein lesbarer, zusammenhängender Text-Output, kein Rohdatendump.
+
+Bedingungen
+
+Keine Hinweise zu Implementierung, Struktur oder Formatierung von mir während der Bearbeitung – anders als bei den Gigs
+bekommst du hier keine exakten Signaturen oder Musterstrings vorgegeben
+Einmaliger Versuch pro Anlauf: wenn's nicht durchgeht, sag ich dir warum, du überarbeitest und schickst neu
+(kein hartes Limit, aber kein Durchwinken bei halbfertigen Lösungen)
+Bestehen = sofortiger Aufstieg zu Bit Runner, REP-Zähler auf 0, neues Ziel (1400 REP) aktiv
