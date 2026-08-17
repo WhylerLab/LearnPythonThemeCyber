@@ -1,12 +1,8 @@
 # promo_run_01.py
 
-# Tagesbericht inhalt
-# > Anzahl gewährter und abgewiesener Zugriffe
-# > Durchschnittle Freigabestufe der gewährtem Zugriffe(gerundet)
-# > Liste der Namen aller abgewiesenen Personen.
 
 
-
+# Gesammelte Daten
 check_in_list = [
     ["Noah", 12, "yes"],
     ["Sue", 4, "yes"],
@@ -21,6 +17,7 @@ check_in_list = [
 total_check_ins = len(check_in_list)
 t_granted = 0
 t_denied = 0
+
 
 
 # Durchschnittle Freigabestufe der gewährtem Zugriffe(gerundet)
@@ -39,7 +36,6 @@ avg_c_tier_list = sum_c_tier_list / len_c_tier_list
 
 
 
-
 # Liste der Namen aller abgewiesenen Personen.
 denied_list = []
 
@@ -50,6 +46,7 @@ for entry in check_in_list:
 
 
 
+# Tagesbericht inhalt
 print('\n**** TAGESBERICHT ****')
 print('======================\n')
 print(f'Heutige Zugriffe: {total_check_ins}')
